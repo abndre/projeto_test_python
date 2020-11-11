@@ -14,5 +14,6 @@ pip install pytest-cov
 ```
 
 ou
-
+```python
 pip install -r requirements.txt
+```
