@@ -1,9 +1,6 @@
 from unittest import TestCase
-
-
-def sum_num(num1, num2):
-    return num1 + num2
+from somar import adicao
 
 class TestSum(TestCase):
-    def test_sum_num(self):
-        self.assertEqual(sum_num(10, 10), 20)
+    def test_adicao(self):
+        self.assertEqual(adicao(10, 10), 20)
