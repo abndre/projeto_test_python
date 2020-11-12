@@ -24,3 +24,11 @@ def baskara(a, b, c):
         return calc_raizes(a, b, c)
     else:
         return False
+
+def check_name(name):
+    temp_var = ""
+    try:
+        temp_var = int(name)
+        return temp_var
+    except Exception as e:
+        return e
