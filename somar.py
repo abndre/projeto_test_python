@@ -20,7 +20,7 @@ def calc_raizes(a, b, c):
     
 def baskara(a, b, c):
     delt = delta(a, b, c)
-    if check_deta(delt):
+    if check_delta(delt):
         return calc_raizes(a, b, c)
     else:
         return False
